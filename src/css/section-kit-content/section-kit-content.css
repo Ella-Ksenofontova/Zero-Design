@@ -1,0 +1,10 @@
+@import url("./__description/section-kit-content__description.css");
+@import url("./__image/section-kit-content__image.css");
+@import url("./__chip-list/section-kit-content__chip-list.css");
+@import url("./__chip/section-kit-content__chip.css");
+
+.section-kit-content {
+  gap: 3.125vw;
+  align-items: center;
+  padding-bottom: 6.25vw;
+}

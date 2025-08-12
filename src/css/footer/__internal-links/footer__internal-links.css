@@ -1,0 +1,24 @@
+.footer__internal-links {
+  display: none;
+}
+
+@media screen and (min-width: 576px) {
+  .footer__internal-links {
+    display: grid;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer__internal-links {
+    grid-column: 2;
+    grid-row: 1 / 3;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__internal-links {
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, min-content);
+    row-gap: 30px;
+  }
+}

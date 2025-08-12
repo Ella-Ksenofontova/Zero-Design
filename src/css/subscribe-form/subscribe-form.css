@@ -1,0 +1,17 @@
+@import url("./__label/subscribe-form__label.css");
+@import url("./__input/subscribe-form__input.css");
+@import url("./__submit/subscribe-form__submit.css");
+
+.subscribe-form {
+  grid-template-columns: repeat(2, auto);
+  grid-auto-rows: min-content;
+  align-items: stretch;
+  row-gap: 2.78vw;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .subscribe-form {
+    width: 500px;
+  }  
+}

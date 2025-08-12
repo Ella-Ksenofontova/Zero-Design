@@ -1,0 +1,6 @@
+.pages-list {
+  flex-wrap: wrap;
+  gap: 3.26vw;
+  max-width: 91.8vw;
+  margin-top: 5.56vw;
+}

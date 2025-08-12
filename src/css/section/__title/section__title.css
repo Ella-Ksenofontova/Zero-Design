@@ -1,0 +1,7 @@
+.section__title {
+  width: fit-content;
+  padding-inline: 2.1vw 7.63vw;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+}
