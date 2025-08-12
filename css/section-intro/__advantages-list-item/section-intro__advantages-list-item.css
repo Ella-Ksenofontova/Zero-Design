@@ -1,9 +1,0 @@
-.section-intro__advantages-list-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 15px;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 10px;
-}

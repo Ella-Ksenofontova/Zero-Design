@@ -1,4 +1,0 @@
-.subscribe-form__label {
-  grid-column: span 2;
-  font-size: max(16px, calc(24 * (100vw / 1440)));
-}
