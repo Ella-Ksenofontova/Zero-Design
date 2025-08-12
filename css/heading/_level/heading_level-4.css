@@ -1,0 +1,3 @@
+.heading_level-4 {
+  font-size: max(calc(36 * (100vw / 1440)), 16px);
+}

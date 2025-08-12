@@ -1,0 +1,3 @@
+.heading_level-2 {
+  font-size: calc((100vw / 1440) * 96);
+}

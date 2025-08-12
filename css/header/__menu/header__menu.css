@@ -1,0 +1,12 @@
+.header__menu {
+  display: none;
+}
+
+@media screen and (min-width: 576px) {
+  .header__menu {
+    display: flex;
+    padding-inline: 20px;
+    margin-block: 0;
+    gap: 20px;
+  }
+}

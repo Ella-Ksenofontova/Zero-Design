@@ -1,0 +1,11 @@
+@import url("./__description/section-intro__description.css");
+@import url("./__advantages-list/section-intro__advantages-list.css");
+@import url("./__advantages-list-item/section-intro__advantages-list-item.css");
+@import url("./__advantages-list-icon/section-intro__advantages-list-icon.css");
+@import url("./__image/section-intro__image.css");
+@import url("./__chip/section-intro__chip.css");
+
+.section-intro {
+  gap: 20px;
+  padding-bottom: 7.63vw;
+}

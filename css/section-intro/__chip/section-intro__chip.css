@@ -1,0 +1,7 @@
+.section-intro__chip {
+  width: fit-content;
+  background-color: #E2B013;
+  color: white;
+  text-transform: uppercase;
+  padding: 4px 10px;
+}

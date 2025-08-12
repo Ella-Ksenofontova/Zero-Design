@@ -1,0 +1,14 @@
+.subscribe-form__submit {
+  padding-bottom: 1px;
+  min-height: 40px;
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+  font-family: inherit;
+}
+
+@media screen and (min-width: 768px) {
+  .subscribe-form__submit {
+    width: fit-content;
+  }
+}

@@ -1,0 +1,9 @@
+.section-kit-content__description {
+  flex-direction: column;
+}
+
+@media screen and (min-width: 576px) {
+  .section-kit-content__description {
+    max-width: 85vw;
+  }
+}

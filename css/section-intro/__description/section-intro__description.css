@@ -1,0 +1,11 @@
+.section-intro__description {
+  flex-direction: column;
+  justify-content: center;
+  gap: 2.1vw;
+}
+
+@media screen and (min-width: 768px) {
+  .section-intro__description {
+    max-width: 85vw;
+  }
+}

@@ -1,0 +1,21 @@
+.section-intro__advantages-list {
+  display: grid;
+  grid-template-columns: repeat(2, 81px);
+  align-items: center;
+  gap: 4.51vw;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 576px) {
+  .section-intro__advantages-list {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section-intro__advantages-list {
+    margin-top: calc(85px - 2.1vw);
+  }
+}

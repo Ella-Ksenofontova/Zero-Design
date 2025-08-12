@@ -1,0 +1,9 @@
+.footer__author-information {
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__author-information {
+    grid-column: span 2;
+  }
+}

@@ -1,0 +1,4 @@
+.footer__internal-links-list-title {
+  list-style-type: none;
+  font-size: max(16px, calc(24 * (100vw / 1440)));
+}
