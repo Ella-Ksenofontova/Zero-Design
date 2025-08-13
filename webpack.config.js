@@ -28,5 +28,8 @@ module.exports = {
         loader: "html-loader",
       },
     ]
+  },
+  optimization: {
+    realContentHash: false
   }
 }
