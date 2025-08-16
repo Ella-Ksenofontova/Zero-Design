@@ -1,11 +1,18 @@
 @import url("./__link/page-preview__link.css");
+@import url("./__image/page-preview__image.css");
 
 .page-preview {
   flex-direction: column;
   gap: 1.38vw;
   padding: 1.73vw;
-  max-width: 100%;
+  width: 100%;
   box-sizing: border-box;
   background-color: rgba(0, 0, 0, 0.04);
   margin-top: calc(70px - 3.26vw);
+}
+
+@media screen and (min-width: 992px) {
+  .page-preview {
+    width: fit-content;
+  }
 }

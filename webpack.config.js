@@ -5,12 +5,14 @@ module.exports = {
   entry: "./index.js",
   output: {
     path: path.resolve(__dirname, "docs"),
-    filename: "bundle.js"
+    filename: "bundle.js",
+    clean: true
   },
   plugins: [
     new HTMLWebpackPlugin({
       template: "./index.html",
-      inject: true
+      inject: true,
+      publicPath: "/"
     })
   ],
   module: {
@@ -28,8 +30,5 @@ module.exports = {
         loader: "html-loader",
       },
     ]
-  },
-  optimization: {
-    realContentHash: false
   }
 }
