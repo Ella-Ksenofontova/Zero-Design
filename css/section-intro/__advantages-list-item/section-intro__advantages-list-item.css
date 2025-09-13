@@ -6,4 +6,9 @@
   text-transform: uppercase;
   text-align: center;
   font-size: 10px;
+  transition: transform .5s;
+}
+
+.section-intro__advantages-list-item:hover {
+  transform: translateY(-10px);
 }

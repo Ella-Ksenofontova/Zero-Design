@@ -5,6 +5,7 @@
 @import url("./__menu-button/header__menu-button.css");
 @import url("./__button/header__button.css");
 @import url("./__logo/header__logo.css");
+@import url("./__icon-link/header__icon-link.css");
 
 .header {
   position: relative;

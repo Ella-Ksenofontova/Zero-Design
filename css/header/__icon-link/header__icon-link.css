@@ -1,0 +1,9 @@
+@media screen and (pointer: fine) {
+  .header__icon-link {
+    transition: transform .5s;
+  }
+
+  .header__icon-link:hover {
+    transform: translateY(-5px);
+  }
+}

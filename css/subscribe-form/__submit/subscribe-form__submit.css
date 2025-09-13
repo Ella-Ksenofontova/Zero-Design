@@ -5,6 +5,13 @@
   border: 1px solid black;
   color: white;
   font-family: inherit;
+  cursor: pointer;
+  transition: background-color .5s, border .5s;
+}
+
+.subscribe-form__submit:hover {
+  background-color: #E2B013;
+  border: 1px solid #E2B013;
 }
 
 @media screen and (min-width: 768px) {

@@ -4,4 +4,9 @@
   background-color: black;
   color: white;
   text-transform: uppercase;
+  transition: background-color .5s;
+}
+
+.section__title:hover {
+  background-color: #E2B013;
 }

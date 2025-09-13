@@ -1,4 +1,20 @@
 .header__menu-link {
+  position: relative;
   color: inherit;
   text-decoration: none;
+}
+
+.header__menu-link::after {
+  content:"";
+  position: absolute;
+  top: calc(100% + 2px);
+  display: block;
+  width: 0;
+  height: 1px;
+  transition: width .5s;
+  background-color: black;
+}
+
+.header__menu-link:hover::after {
+  width: 100%;
 }

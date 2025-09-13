@@ -9,6 +9,12 @@
     width: 45.8vw;
     height: calc(45.8vw * (440 / 660));
     background-image: url("../../../assets/section-kit-content-image.png");
-    background-size: cover;
+    background-size: 100%;
+    background-position: center;
+    transition: background-size .5s;
+  }
+
+  .section-kit-content__image:hover {
+    background-size: 110%;
   }
 }

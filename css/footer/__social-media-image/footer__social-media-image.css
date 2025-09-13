@@ -1,0 +1,9 @@
+@media screen and (pointer: fine) {
+  .footer__social-media-image {
+    transition: transform .5s;
+  }
+
+  .footer__social-media-image:hover {
+    transform: translateY(-10px);
+  }
+}

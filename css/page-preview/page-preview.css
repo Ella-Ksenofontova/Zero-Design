@@ -2,17 +2,19 @@
 @import url("./__image/page-preview__image.css");
 
 .page-preview {
+  position: relative;
   flex-direction: column;
   gap: 1.38vw;
   padding: 1.73vw;
   width: 100%;
   box-sizing: border-box;
-  background-color: rgba(0, 0, 0, 0.04);
   margin-top: calc(70px - 3.26vw);
+  background-color: rgba(0, 0, 0, 0.04);
+  overflow: hidden;
 }
 
 @media screen and (min-width: 992px) {
   .page-preview {
-    width: fit-content;
+    width: calc(576px + 3.46vw);
   }
 }

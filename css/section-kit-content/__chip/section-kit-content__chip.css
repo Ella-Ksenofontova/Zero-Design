@@ -1,7 +1,12 @@
 .section-kit-content__chip {
+  padding-inline: 20px 25px;
+  padding-block: 10px;
   background-color: black;
   color: white;
   text-transform: uppercase;
-  padding-inline: 20px 25px;
-  padding-block: 10px;
+  transition: background-color .5s;
+}
+
+.section-kit-content__chip:hover {
+  background-color: #E2B013;
 }

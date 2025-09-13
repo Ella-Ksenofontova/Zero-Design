@@ -6,6 +6,7 @@
 @import url("./__internal-links-list-title/footer__internal-links-list-title.css");
 @import url("./__internal-links-list-item/footer__internal-links-list-item.css");
 @import url("./__internal-link/footer__internal-link.css");
+@import url("./__social-media-image/footer__social-media-image.css");
 
 .footer {
   row-gap: 20px;

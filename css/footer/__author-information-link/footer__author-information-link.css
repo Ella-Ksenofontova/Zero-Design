@@ -1,4 +1,22 @@
 .footer__author-information-link {
+  position: relative;
   text-decoration: none;
   color: #E2B013;
+}
+
+@media screen and (pointer: fine) {
+  .footer__author-information-link::after {
+    content: "";
+    position: absolute;
+    top: calc(100% + 0.5px);
+    left: 0;
+    width: 0;
+    height: .5px;
+    background-color: #E2B013;
+    transition: width .5s;
+  }
+
+  .footer__author-information-link:hover::after {
+    width: 100%;
+  }
 }

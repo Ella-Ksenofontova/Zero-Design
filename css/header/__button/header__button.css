@@ -7,9 +7,17 @@
     display: inline-block;
     width: fit-content;
     padding: 15px 20px;
+    border: 1px solid black;
     background-color: black;
     color: white;
     font-family: inherit;
     font-size: 18px;
+    cursor: pointer;
+    transition: background-color .5s,  border .5s;
+  }
+
+  .header__button:hover {
+    background-color: #E2B013;
+    border: 1px solid #E2B013;
   }
 }

@@ -1,4 +1,22 @@
 .footer__internal-link {
+  position: relative;
   text-decoration: none;
   color: inherit;
+}
+
+@media screen and (pointer: fine) {
+  .footer__internal-link::after {
+    content: "";
+    position: absolute;
+    top: calc(100% + 0.5px);
+    left: 0;
+    width: 0;
+    height: .5px;
+    background-color: black;
+    transition: width .5s;
+  }
+
+  .footer__internal-link:hover::after {
+    width: 100%;
+  }
 }
